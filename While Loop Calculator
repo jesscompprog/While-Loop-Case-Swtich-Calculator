@@ -1,0 +1,160 @@
+package javaapplication10;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Jess
+ */
+public class JavaApplication10 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("While Loop");
+        
+        Scanner keyboard = new Scanner (System.in);              
+        
+        System.out.println("Press 1 : for Addition");
+        System.out.println("Press 2 : for Subtraction");
+        System.out.println("Press 3 : for Multiplication");
+        System.out.println("Press 4 : for Divition");
+        System.out.println("Choose an operator: ");
+        
+        int x = keyboard.nextInt();        
+        
+       while(true){
+           switch(x){
+              case 1:                           
+                if(x==1)
+                { 
+                    
+                    while(x<10)                                      {
+                    System.out.println("Addition");
+                    System.out.println("Enter a number");
+                    int num1= keyboard.nextInt();
+                    System.out.println("Enter a number");
+                    int num2= keyboard.nextInt();
+                    int answer= num1 + num2;
+                    System.out.println("Answer is:" + answer);                                             
+                       x++;
+                       
+                    if(x == 8)                  
+                    {
+                    System.out.println("Do you want to continue? Yes or No");
+                    int p = keyboard.nextInt();
+                    if (p==1){
+                     
+                    }else{
+                        break;
+                  }                                                   
+                }
+               {
+                        
+                                            
+                        }
+               
+                    }
+                    
+                    }case 2:                           
+                    if(x==2)
+                { 
+                    while(x<10){
+                    System.out.println("Subtraction");
+                    System.out.println("Enter a number");
+                    int num1= keyboard.nextInt();
+                    System.out.println("Enter a number");
+                    int num2= keyboard.nextInt();
+                    int answer= num1 - num2;
+                    System.out.println("Answer is:" + answer);                   
+                           x++;
+                       
+                    if(x == 8)
+                   
+                    {
+                    System.out.println("Do you want to continue? Yes or No");
+                    int p = keyboard.nextInt();
+                    if (p == 1){
+                    
+                    }else
+                        break;                                              
+                                                                      
+                }
+               int a = keyboard.nextInt();{
+                           
+                        }break;
+                        
+                    }
+                    
+                    }case 3:                           
+                if(x==3)
+                { 
+                    while(x<10){
+                    System.out.println("Multiplication");
+                    System.out.println("Enter a number");
+                    int num5= keyboard.nextInt();
+                    System.out.println("Enter a number");
+                    int num6= keyboard.nextInt();
+                    int answer= num5 * num6;
+                    System.out.println("Answer is:" + answer);                                             
+                       x++;
+                    if(x != 8)
+                    if (!"end".equals(x))
+                    {
+                    System.out.println("Do you want to continue? Yes or No");
+                    int p = keyboard.nextInt();
+                    if (p==1){
+                  
+                    }else{
+                        break;
+                        
+                        
+                    }                                                   
+                }
+               int a = keyboard.nextInt();{
+                            
+                        }break;
+                        
+                    }
+                    
+                }case 4:                           
+                if(x==4)
+                { 
+                    while(x<10){
+                    System.out.println("Division");
+                    System.out.println("Enter a number");
+                    int num7= keyboard.nextInt();
+                    System.out.println("Enter a number");
+                    int num8= keyboard.nextInt();
+                    int answer= num7 / num8;
+                    System.out.println("Answer is:" + answer);                   
+                          x++;
+                       
+                    if(x != 8)
+                    if (!"end".equals(x))
+                    {
+                    System.out.println("Do you want to continue? Yes or No");
+                    int p = keyboard.nextInt();
+                    if (p==1){
+                    }else{
+                        break;
+                        
+                        
+                    }                                                   
+                }
+               int a = keyboard.nextInt();{
+                           
+                        }
+                
+           }break;
+                        
+                    }
+                    
+                }
+                
+           }
+           
+       }
+       
+    }
